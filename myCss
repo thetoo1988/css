@@ -1,0 +1,69 @@
+.button {
+	background-color: #4caf50;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 7px 28px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 5px 5px #999;
+}
+.button:hover {
+	background-color: #3e8e41;
+}
+.button:active {
+	background-color: #008e41;
+	box-shadow: 2px 2px #666;
+	transform: translateY(4x);
+}
+.btn {
+	position: relative;
+	background-color: DodgerBlue;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	padding: 10px 25px;
+	font-size: 12px;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	box-shadow: 5px 5px #999;
+}
+.btn:hover {
+	background-color: RoyalBlue;
+}
+.spoiler {
+	background-color: #4caf50;
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 12px;
+}
+.active, .spoiler:hover {
+	background-color: #3e8e41;
+}
+.panel {
+	position: relative;
+	padding: 30% 50%;
+}
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("spinner.gif"),url("333.jpg");
+	background-repeat:no-repeat, no-repeat;
+	background-color: #00efff;
+	background-size: 15%, contain;
+	background-position: center;
+}
